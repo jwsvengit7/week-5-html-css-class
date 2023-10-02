@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#app{
+    width: 100%;
+    height: auto;  
+}
+.header-div{
+    width: 100%;
+    height: 150px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.header-content{
+    width: 85%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.get{
+width:150px;
+height:50px;
+background-color: #003366;
+color:white;
+border-width: 0px;
+border-radius: 10px;
+cursor: pointer;
+}
+.customer-div{
+    width: 30%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.row2{
+width: 100%;
+height: 2000px;
+background-color: pink;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+.box{
+width: 20%;
+height: 600px;
+background-color: green;
+    border-radius: 20px;
+   border-width: 10px;
+   border-color: orange;
+   border-style: solid;
+   margin: 20px;
+
+}
+
+
+.box-option{
+    background-color: blue
+}
